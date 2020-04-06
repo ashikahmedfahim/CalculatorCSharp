@@ -83,7 +83,7 @@ namespace CalculatorCSharp
         private void button12_Click(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + "0";
-            str = str + "10";
+            str = str + "0";
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -141,6 +141,11 @@ namespace CalculatorCSharp
             }
             textBox1.Text = ans.ToString();
             str = ans.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
